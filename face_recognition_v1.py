@@ -28,6 +28,12 @@ while True:
             Id = "Rick"
         elif(Id == 2):
             Id = "Daryl"
+        elif(Id == 3):
+            Id = "Jorge"
+        elif(Id == 4):
+            Id = "Vermelhao"
+        elif(Id == 5):
+            Id = "Miguel"
         
         cv2.rectangle(im, (x-22,y-90), (x+w+22, y-22), (0,255,0), -1)
         cv2.putText(im, str(Id), (x,y-40), font, 2, (255,255,255), 3)

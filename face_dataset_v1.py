@@ -6,7 +6,7 @@ face_detector= cv2.CascadeClassifier('faceIndex.xml')
 face_id =  input("Informe o id da indexação")
 
 
-img = cv2.imread("images/image.png",0)
+img = cv2.imread("images/image3.jpg",0)
 faces = face_detector.detectMultiScale(img, 1.3, 5)
 
 if(len(faces)!=0):
